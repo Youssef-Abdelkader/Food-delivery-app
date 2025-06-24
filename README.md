@@ -58,20 +58,3 @@ A minimal Flutter app for browsing food items, restaurants, and meal details —
 ---
 
 ## 📂 Folder Structure (Cubit Based)
-lib/
-├── data/
-│ ├── models/ # Meal and Restaurant models
-│ └── network/ # Dio client & API services
-├── cubit/
-│ ├── restaurant_cubit.dart # Handles restaurant list
-│ ├── menu_cubit.dart # Handles meals per restaurant
-│ ├── detail_cubit.dart # Meal detail logic
-│ └── states/ # All Cubit states
-├── ui/
-│ ├── screens/
-│ │ ├── home_screen.dart # Shows restaurants
-│ │ ├── menu_screen.dart # Shows meals per restaurant
-│ │ ├── meal_detail_screen.dart # Meal full detail
-│ │ └── cart_screen.dart # (Optional) Cart UI
-│ └── widgets/ # Reusable widgets (e.g. FoodCard)
-└── main.dart
